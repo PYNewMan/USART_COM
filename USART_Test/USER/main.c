@@ -1,22 +1,4 @@
-/**
- **  ProjectName:FP808
- **  author:shane
- **	 date:2019-01-18
- */
-#include "delay.h"
-#include "sys.h"
-#include "usart.h"
-#include "uart.h"	
-#include "dsp.h"
-#include "I2C.h"
-#include "led.h"
-#include "Infrared.h"
-#include "timer.h"
 
-
-char rsbuf_enter[10] = "FJDENTER";
-char rsbuf_return[10] = "FJDRETURN";
-char rsbuf_right[10] = "FJDRIGHT";
 char detect_buffer[9]= {0x01, 0x03, 0x00, 0x20, 0x00, 0x01, 0x85, 0xc0};	
 
 int g_detect_flag = 0;
