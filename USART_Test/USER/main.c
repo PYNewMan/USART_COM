@@ -17,6 +17,10 @@ void sleep(int num)//
 	for(i=0; i<num; i++)
 	{
 		delay_ms(1000);
+		outhehskkjdsfaj;
+		sdfjlxjjviosda;
+		dssadfsafsdfsa;
+		sdssdfsf;
 	}
 
 }
